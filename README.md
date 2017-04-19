@@ -31,5 +31,3 @@ Attendees will leave the class with a one page site that is functional and prese
 https://learn.jquery.com/about-jquery/how-jquery-works/
 - List of web recognizable colors: http://htmlcolorcodes.com/color-names/
 - List of web recognizable fonts: http://www.cssfontstack.com/
-- Link to Keynote presentation:
-*************************************
