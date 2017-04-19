@@ -34,13 +34,6 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-.pageWrapper {
-    width: 85%;
-    margin: auto;
-    font-family: sans-serif;
-    align-items: center;
-    color: #313131;
-}
 
 h1{
 	font-size: 2em;
@@ -60,7 +53,6 @@ a:visited {
 }
 a:active {
     text-decoration: underline;
-    ;
 }
 #navBar {
     display: inline-block;
@@ -90,6 +82,15 @@ a:active {
   margin: 0 15px;
   max-height: 50px;
 }
+
+.pageWrapper {
+    width: 85%;
+    margin: auto;
+    font-family: sans-serif;
+    align-items: center;
+    color: #313131;
+}
+
 .detailsh1 {
     font-size: 2em;
     font-weight: bold;
