@@ -7,6 +7,9 @@ $(document).ready(function() {
   });
 
   $('img').on('click', function() {
-    $(this).css('transform', 'scale(2)');
+    $(this).animate({opacity: '1', height: '100%', width: '100%'}, 1000, function() {
+      $(this).animate({height: '35%', width: '35%'}, 2000);
+    })
+    console.log('here');
   })
 });

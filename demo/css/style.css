@@ -45,6 +45,7 @@ table {
 h1{
 	font-size: 2em;
 	color: #313131;
+  padding: 1%;
 }
 p {
     font-size: 1.2em;
@@ -66,11 +67,12 @@ a:active {
     background-color: #313131;
     color: #FBFBF2;
     width: 100%;
-    padding: 3% 2%;
+    padding: 3% 0;
     margin-bottom: 2%;
     box-shadow: 5px 5px 30px #888888;
 }
 .navLinks {
+    border-bottom: 3px solid transparent;
     position: relative;
     display: inline-block;
     margin: auto;
@@ -82,6 +84,11 @@ a:active {
 }
 .navLinks:hover {
     border-bottom: 3px solid #03BAD6;
+}
+.navIcon {
+  float: right;
+  margin: 0 15px;
+  max-height: 50px;
 }
 .detailsh1 {
     font-size: 2em;
@@ -115,10 +122,12 @@ a:active {
 }
 
 .listImage{
+  border: 2px solid #333333;
 	position: relative;
 	width: 35%;
 	height: 35%;
 	float: left;
+  opacity: 0.5;
 }
 
 .listDescription{
@@ -140,4 +149,8 @@ a:active {
 .clickThis:hover {
     cursor: pointer;
     box-shadow: 5px 5px 30px #888888;
+}
+
+.imageZoom {
+  transform: scale(1);
 }
