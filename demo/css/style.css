@@ -1,0 +1,143 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.pageWrapper {
+    width: 85%;
+    margin: auto;
+    font-family: sans-serif;
+    align-items: center;
+    color: #313131;
+}
+
+h1{
+	font-size: 2em;
+	color: #313131;
+}
+p {
+    font-size: 1.2em;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: underline;
+    ;
+}
+#navBar {
+    display: inline-block;
+    background-color: #313131;
+    color: #FBFBF2;
+    width: 100%;
+    padding: 3% 2%;
+    margin-bottom: 2%;
+    box-shadow: 5px 5px 30px #888888;
+}
+.navLinks {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    padding: 0 2%;
+    color: #FBFBF2;
+    font-family: sans-serif;
+    text-decoration: none;
+    letter-spacing: .22em;
+}
+.navLinks:hover {
+    border-bottom: 3px solid #03BAD6;
+}
+.detailsh1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+.detailsParagraph {
+    width: 60%;
+    margin: auto;
+}
+#petDetailHamilton {
+    display: block;
+    margin: 5% auto;
+    /*this is how we center images margin: auto;*/
+    width: 40%;
+    height: 30%;
+}
+
+.buddyName{
+	margin: 2% 0;
+	font-weight: bold;
+}
+
+.buddyNameLink{
+	color: #313131;
+}
+
+.individualList{
+	width: 80%;
+	margin: 10% auto 45% auto;
+
+}
+
+.listImage{
+	position: relative;
+	width: 35%;
+	height: 35%;
+	float: left;
+}
+
+.listDescription{
+	width: 40%;
+	position: relative;
+	margin: auto;
+	float: right;
+}
+.clickThis {
+    margin: 5% 0;
+    outline: none;
+    border: none;
+    padding: 2%;
+    font-size: 1.2em;
+    background-color: #03BAD6;
+    color: #FBFBF2;
+    border-radius: 7px;
+}
+.clickThis:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 30px #888888;
+}
