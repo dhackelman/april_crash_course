@@ -1,6 +1,6 @@
 # @TIY April Crash Course
 
-## TIY Crash Course: How to A New Webpage
+## TIY Crash Course: How to Make A New Webpage
 
 Use this Repo to download the necessary files for this course. You will see two folders, _blankproject_ and _demo_. The demo folder contains the complete exercise. You should only use this as a reference AFTER you have tried to complete the assignment. We will be working in the blankproject folder during this course.
 
